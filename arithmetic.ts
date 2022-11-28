@@ -1,6 +1,5 @@
-export function add(a:number, b: number):number {
-    return a + b
-}
-export function multiply(a:number, b: number):number {
-    return a * b
-}
+const add = (a:number, b: number):number =>  a + b
+
+const multiply = (a:number, b: number):number => a * b
+
+export {add, multiply}
